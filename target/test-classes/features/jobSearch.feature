@@ -8,6 +8,6 @@ Feature: Job search
         Then User is navigated to list of all jobs
         When User selects Poznan from drop down menu
         Then Job list is filtered to the one city
-        When User search for Quality Engineer
+        When User search for Software Engineer in Tests
         And Clicks on View job
         Then new browser tab with Quality Engineer job details opens
