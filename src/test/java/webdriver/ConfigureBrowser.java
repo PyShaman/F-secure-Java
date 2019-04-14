@@ -1,6 +1,7 @@
 package webdriver;
 
 import com.codeborne.selenide.Configuration;
+import org.apache.commons.exec.OS;
 import properties.Properties;
 
 public class ConfigureBrowser {
@@ -15,10 +16,13 @@ public class ConfigureBrowser {
     private void useLocalWebdriver() {
         Properties properties = new Properties();
 
-        if (properties.getChromeDriverPath().isEmpty()) {
-            return;
+        if (OS.isFamilyWindows()) {
+            System.out.println("test");
+            System.setProperty("webdriver.chrome.driver", properties.getChromeDriverPathForWindows());
         }
-
-        System.setProperty("webdriver.chrome.driver", properties.getChromeDriverPath());
+        else if (OS.isFamilyUnix()) {
+            System.out.println("test2");
+            System.setProperty("webdriver.chrome.driver", properties.getChromeDriverPathForLinux());
+        }
     }
 }

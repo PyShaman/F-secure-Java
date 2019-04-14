@@ -8,11 +8,13 @@ public class Properties {
 
     public Properties() {
         properties = new PropertiesFileReader(
-                "src/test/resources", "default.properties", "local.properties"
+                "src/test/resources/", "default.properties", "local.properties"
         );
     }
 
     public String getHost() { return properties.getValue("url"); }
-    public String getChromeDriverPath() { return properties.getValue("webdriver.chrome.driver.path"); }
-    public String getFirefoxDriverPath() { return properties.getValue("webdriver.firefox.driver.path"); }
+    public String getChromeDriverPathForLinux() { return properties.getValue("webdriver.chrome.driver.path.linux"); }
+    public String getFirefoxDriverPathForLinux() { return properties.getValue("webdriver.firefox.driver.path.linux"); }
+    public String getChromeDriverPathForWindows() { return properties.getValue("webdriver.chrome.driver.path.windows"); }
+    public String getFirefoxDriverPathForWindows() { return properties.getValue("webdriver.firefox.driver.path.windows"); }
 }

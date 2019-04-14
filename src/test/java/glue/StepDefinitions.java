@@ -11,6 +11,7 @@ import page.objects.home.HomePage;
 
 import static com.codeborne.selenide.Selenide.*;
 
+
 public class StepDefinitions implements En {
     private BasePageObjects basePageObjects;
     private CareersPage careersPage;
@@ -20,6 +21,10 @@ public class StepDefinitions implements En {
         this.basePageObjects = basePageObjects;
         this.careersPage = careersPage;
         this.homePage = homePage;
+    }
+
+    public StepDefinitions() {
+
     }
 
     @Given("User is on main page")
