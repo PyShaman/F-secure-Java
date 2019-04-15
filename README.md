@@ -24,7 +24,7 @@ The main branch will be the _master_.
 
 _2. Installing required dependencies_
 
-After cloning repository all necessarily dependencies will be downloaded.
+After cloning repository all necessary dependencies will be downloaded.
 
 _3. Usage_
 
