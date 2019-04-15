@@ -1,8 +1,0 @@
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/page/objects/base/BasePageObjects.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/propertiesFileReader/PropertiesFileReader.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/webdriver/ConfigureBrowser.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/page/objects/careers/CareersPage.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/glue/StepDefinitions.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/page/objects/home/HomePage.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/properties/Properties.java
-/home/mbek/IdeaProjects/F-secure-Java/src/test/java/cucumber/BeforeAfterScenario.java
