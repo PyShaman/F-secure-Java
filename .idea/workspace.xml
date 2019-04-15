@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2487110b-b1fd-4893-8279-a55480e06065" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/jobs/JobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/properties/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/properties/Properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/default.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/default.properties" afterDir="false" />
-    </list>
+    <list default="true" id="2487110b-b1fd-4893-8279-a55480e06065" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -91,13 +78,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/BeforeAfterScenario.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -186,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/test/java/cucumber/BeforeAfterScenario.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/jobSearch.feature" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/base/GoogleSearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/default.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/properties/Properties.java" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java" />
@@ -195,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/jobs/JobsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/default.properties" />
       </list>
     </option>
   </component>
@@ -556,9 +549,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 24m 52s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 35m 59s.xml">
       <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -586,6 +576,9 @@
     <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 38m 45s.xml">
       <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 55m 12s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -600,14 +593,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -750,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/1555327859927.0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -787,13 +773,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/1555327859927.0.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/BeforeAfterScenario.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,6 +900,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
