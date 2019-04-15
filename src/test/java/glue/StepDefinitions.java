@@ -1,11 +1,13 @@
 package glue;
 
 import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.SelenideElement;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.java8.En;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import page.objects.base.BasePageObjects;
 import page.objects.careers.CareersPage;
@@ -20,22 +22,26 @@ public class StepDefinitions implements En {
     private BasePageObjects basePageObjects;
     private CareersPage careersPage;
     private HomePage homePage;
+    private String mainPageTitle;
 
-    public StepDefinitions(BasePageObjects basePageObjects, CareersPage careersPage, HomePage homePage) {
-        this.basePageObjects = basePageObjects;
-        this.careersPage = careersPage;
-        this.homePage = homePage;
-    }
+//    public StepDefinitions(BasePageObjects basePageObjects, CareersPage careersPage, HomePage homePage) {
+//        this.basePageObjects = basePageObjects;
+//        this.careersPage = careersPage;
+//        this.homePage = homePage;
+//    }
 
-    public StepDefinitions() {
-
-    }
+    public StepDefinitions() {}
 
     @Given("User is on main page")
     public void userIsOnMainPage() {
-        $("title").shouldHave(attribute(
-                "text",
-                "F-Secure | Cyber Security Solutions for your Home and Business"));
+        mainPageTitle = basePageObjects.title();
+        Assert.assertTrue(mainPageTitle.equals("F-Secure | Cyber Security Solutions for your Home and Business"));
+//                "text",
+//                "F-Secure | Cyber Security Solutions for your Home and Business"));
+//        "F-Secure | Cyber Security Solutions for your Home and Business");
+//        $("title").shouldHave(attribute(
+//                "text",
+//                "F-Secure | Cyber Security Solutions for your Home and Business"));
         //click to accept cookies
         $(By.xpath("//A[@href='#'][text()='Got it']")).click();
     }

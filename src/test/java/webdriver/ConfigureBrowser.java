@@ -5,8 +5,9 @@ import org.apache.commons.exec.OS;
 import properties.Properties;
 
 public class ConfigureBrowser {
-    Properties properties = new Properties();
+    private Properties properties;
     public void setConfiguration() {
+        properties = new Properties();
         Configuration.browser = properties.getBrowser();
         Configuration.timeout = 9000;
         Configuration.startMaximized = true;
