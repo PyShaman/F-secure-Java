@@ -1,10 +1,12 @@
 package page.objects.jobs;
 
+import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
 
 public class JobsPage {
 
@@ -30,7 +32,7 @@ public class JobsPage {
      * @return boolean
      */
     public boolean jobTitle(String title) {
-        return $(".h5").has(attribute("text", title));
+        return $$(".h5").findBy(attribute("text", title)).exists();
     }
 
     /**
@@ -38,7 +40,7 @@ public class JobsPage {
      * @return SelenideElement
      */
     public SelenideElement viewJobButton() {
-        return $(".btn.btn-red");
+        return $(By.xpath("(//A[@data-track-name='Jobylon - Software Engineer in Tests'])"));
     }
 
     /**
