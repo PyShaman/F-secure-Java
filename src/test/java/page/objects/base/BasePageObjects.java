@@ -7,6 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class BasePageObjects {
 
+    private SelenideElement title = $("title");
+
     public SelenideElement containsTitle(String title) {
         return $("title").shouldHave(attribute("text", title));
     }

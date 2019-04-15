@@ -13,6 +13,7 @@ public class Properties {
     }
 
     public String getHost() { return properties.getValue("url"); }
+    public String getBrowser() { return properties.getValue("browser"); }
     public String getChromeDriverPathForLinux() { return properties.getValue("webdriver.chrome.driver.path.linux"); }
     public String getFirefoxDriverPathForLinux() { return properties.getValue("webdriver.firefox.driver.path.linux"); }
     public String getChromeDriverPathForWindows() { return properties.getValue("webdriver.chrome.driver.path.windows"); }
