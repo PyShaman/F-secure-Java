@@ -6,5 +6,12 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class CareersPage {
 
-    public SelenideElement checkPositions = $(".btn.btn-secondary");
+    /**
+     * Function finds "See our open positions" button
+     * @return SelenideElement
+     */
+    public SelenideElement careersButton() {
+        return $(".btn.btn-secondary");
+    }
+
 }

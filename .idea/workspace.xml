@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2487110b-b1fd-4893-8279-a55480e06065" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/jobs/JobsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/properties/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/properties/Properties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/default.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,53 +28,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="39" column="28" selection-start-line="38" selection-start-column="25" selection-end-line="39" selection-end-column="28" />
+            <state relative-caret-position="450">
+              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1741#1742#0" expanded="true" />
+                <element signature="e#1813#1814#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#2212#2213#0" expanded="true" />
+                <element signature="e#2332#2333#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
+                <element signature="e#2463#2464#0" expanded="true" />
+                <element signature="e#2511#2512#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/jobs/JobsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="405">
+              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/jobSearch.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/BeforeAfterScenario.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,13 +117,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,17 +147,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/properties/Properties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="180">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/propertiesFileReader/PropertiesFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="-254">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,13 +185,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber/BeforeAfterScenario.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/jobSearch.feature" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/base/GoogleSearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/properties/Properties.java" />
         <option value="$PROJECT_DIR$/src/test/resources/default.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/properties/Properties.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page/objects/jobs/JobsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java" />
       </list>
     </option>
   </component>
@@ -216,6 +253,24 @@
             <path>
               <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="F-secure-Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F-secure-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F-secure-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F-secure-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
@@ -292,6 +347,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F-secure-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,6 +397,24 @@
             <path>
               <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.codeborne:selenide:5.2.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.codeborne:selenide:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenide-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.codeborne:selenide:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenide-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="selenide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="F-secure-Java" type="b2602c69:ProjectViewProjectNode" />
@@ -474,34 +556,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 11h 12m 44s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 11h 13m 10s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 11h 58m 35s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 00m 17s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 00m 38s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 05m 53s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 17m 07s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 17m 41s.xml">
-      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 24m 52s.xml">
       <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 35m 59s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 12h 46m 48s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 06m 04s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 07m 09s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 08m 21s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 18m 17s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 31m 00s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 34m 07s.xml">
+      <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_meant_to_navigate_to_Careers_tab_and_search_for_specific_job_offer - 2019.04.15 at 13h 38m 45s.xml">
       <configuration name="Scenario: User is meant to navigate to Careers tab and search for specific job offer" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -509,7 +591,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26175213" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26175213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,8 +600,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -649,16 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/propertiesFileReader/PropertiesFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/base/GoogleSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -671,57 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/properties/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/jobSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -729,33 +750,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/1555327859927.0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#20287#20291#0" expanded="true" />
+            <element signature="e#20361#20365#0" expanded="true" />
+            <element signature="e#20366#20370#0" expanded="true" />
+            <element signature="e#20376#20380#0" expanded="true" />
+            <element signature="e#20422#20426#0" expanded="true" />
+            <element signature="e#20433#20437#0" expanded="true" />
+            <element signature="e#20438#20442#0" expanded="true" />
+            <element signature="e#20443#20447#0" expanded="true" />
+            <element signature="e#20534#20538#0" expanded="true" />
+            <element signature="e#20596#20600#0" expanded="true" />
+            <element signature="e#20658#20662#0" expanded="true" />
+            <element signature="e#20664#20668#0" expanded="true" />
+            <element signature="e#20669#20673#0" expanded="true" />
+            <element signature="e#20675#20679#0" expanded="true" />
+            <element signature="e#20680#20684#0" expanded="true" />
+            <element signature="e#20688#20692#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/1555327859927.0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/BeforeAfterScenario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/SelenideElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1306">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/careers/CareersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/base/BasePageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/glue/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="39" column="28" selection-start-line="38" selection-start-column="25" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2332#2333#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
+            <element signature="e#2511#2512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/jobs/JobsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/properties/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/propertiesFileReader/PropertiesFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/ConfigureBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

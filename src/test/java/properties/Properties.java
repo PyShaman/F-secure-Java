@@ -8,7 +8,9 @@ public class Properties {
 
     public Properties() {
         properties = new PropertiesFileReader(
-                "src/test/resources/", "default.properties", "local.properties"
+                "src/test/resources/",
+                "default.properties",
+                "local.properties"
         );
     }
 

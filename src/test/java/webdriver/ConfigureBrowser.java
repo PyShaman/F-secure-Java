@@ -11,11 +11,10 @@ public class ConfigureBrowser {
         Configuration.browser = properties.getBrowser();
         Configuration.timeout = 9000;
         Configuration.startMaximized = true;
-        useLocalWebdriver();
+        useLocalWebDriver();
     }
 
-    private void useLocalWebdriver() {
-
+    private void useLocalWebDriver() {
 
         if (OS.isFamilyWindows() && Configuration.browser.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", properties.getChromeDriverPathForWindows());
@@ -30,6 +29,4 @@ public class ConfigureBrowser {
             System.setProperty("webdriver.firefox.driver", properties.getFirefoxDriverPathForLinux());
         }
     }
-
-
 }
